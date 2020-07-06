@@ -14,9 +14,25 @@ AirCasting | Personal monitoring | PM, Sound level, Relative humidity, Temperatu
 
 ### GIS Data
 
-Name | Type | Measured parameter | Spatial resolution | Extent | Source | Comments
---- | --- | --- | --- | --- | --- | --- 
-USGS 13 arc-second n42w088 1 x 1 degree | USGS Elevation Products (3DEP) | Elevation | 1/3 arc-second | 1 x 1 degree | [USGS](https://viewer.nationalmap.gov/basic/#productSearch) | May only be half of Chicago?
+Name | Type | Measured parameter | Spatial resolution | Extent | Date Published | Date Last Modified |Source | Comments
+--- | --- | --- | --- | --- | --- | --- | --- | ---
+USGS 13 arc-second n42w088 1 x 1 degree | USGS Elevation Products (3DEP) - Raster | Elevation | 1/3 arc-second | 1 x 1 degree | 2017-08-24 | 2020-03-03 | [USGS](https://viewer.nationalmap.gov/basic/#productSearch) | May only be half of Chicago?
+LC08_CU_021007_20190610_20190621_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-06-10 |  | [USGS](https://earthexplorer.usgs.gov/) | Northern half of Chicago
+LC08_CU_021008_20190610_20190621_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-06-10 |  | [USGS](https://earthexplorer.usgs.gov/) | Southern half of Chicago
+LC08_CU_021007_20190712_20190723_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-07-12 |  | [USGS](https://earthexplorer.usgs.gov/) | Northern half of Chicago
+LC08_CU_021008_20190712_20190723_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-07-12 |  | [USGS](https://earthexplorer.usgs.gov/) | Southern half of Chicago
+
+
+### Geometry
+
+File Name | Data Type | Description | Date Created | Date Last Modified | Creator | Last Modified By | Comments
+--- | --- | --- | --- | --- | --- | --- | --- 
+city_hall_outline | Raster (TIF) | City Hall green roof boundaries | Summer 2019 | Summer 2019 | Jacob Abramowitz | Jacob Abramowitz |  |
+Millennium_Park | Raster (TIF) | Millennium Park green roof boundaries | Summer 2019 | Summer 2019 | Jacob Abramowitz | Jacob Abramowitz |  |
+walmart2_good | Raster (TIF) | City Hall green roof boundaries | Summer 2019 | Summer 2019 | Jacob Abramowitz | Jacob Abramowitz | Possible raster errors |
+City Hall | Polygon (Shapefile) | City Hall green roof boundaries | 2019-07-06 | 2019-07-06 | Natasha Stamler | Natasha Stamler | Built off of city_hall_outline |
+Millennium Park | Polygon (Shapefile) | City Hall green roof boundaries | 2019-07-06 | 2019-07-06 | Natasha Stamler | Natasha Stamler | Built off of Millennium_Park |
+
 
 ## Resources
 ### Trainings From the University of Chicago GeoDaCenters's [OpenAirQ-phase1](https://github.com/GeoDaCenter/OpenAirQ-phase1)
