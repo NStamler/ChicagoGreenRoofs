@@ -16,7 +16,7 @@ AirCasting | Personal monitoring | PM, Sound level, Relative humidity, Temperatu
 
 Name | Type | Measured parameter | Spatial resolution | Extent | Source | Comments
 --- | --- | --- | --- | --- | --- | --- 
-USGS 13 arc-second n42w088 1 x 1 degree | USGS Elevation Products (3DEP) | Elevation | 1/3 arc-second | [USGS](https://viewer.nationalmap.gov/basic/#productSearch) | May only be half of Chicago?
+USGS 13 arc-second n42w088 1 x 1 degree | USGS Elevation Products (3DEP) | Elevation | 1/3 arc-second | 1 x 1 degree | [USGS](https://viewer.nationalmap.gov/basic/#productSearch) | May only be half of Chicago?
 
 ## Resources
 ### Trainings From the University of Chicago GeoDaCenters's [OpenAirQ-phase1](https://github.com/GeoDaCenter/OpenAirQ-phase1)
