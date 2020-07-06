@@ -31,7 +31,7 @@ File Name | Data Type | Description | Date Created | Date Last Modified | Creato
 --- | --- | --- | --- | --- | --- | --- | --- 
 city_hall_outline | Raster (TIF) | City Hall green roof boundaries | Summer 2019 | Summer 2019 | Jacob Abramowitz | Jacob Abramowitz |  |
 Millennium_Park | Raster (TIF) | Millennium Park green roof boundaries | Summer 2019 | Summer 2019 | Jacob Abramowitz | Jacob Abramowitz |  |
-walmart2_good | Raster (TIF) | City Hall green roof boundaries | Summer 2019 | Summer 2019 | Jacob Abramowitz | Jacob Abramowitz | Possible raster errors |
+walmart2_good | Raster (TIF) | City Hall green roof boundaries | Summer 2019 | Summer 2019 | Jacob Abramowitz | Jacob Abramowitz |  |
 City Hall | Polygon (Shapefile) | City Hall green roof boundaries | 2019-07-06 | 2019-07-06 | Natasha Stamler | Natasha Stamler | Built off of city_hall_outline |
 Millennium Park | Polygon (Shapefile) | City Hall green roof boundaries | 2019-07-06 | 2019-07-06 | Natasha Stamler | Natasha Stamler | Built off of Millennium_Park |
 Walmart | Polygon (Shapefile) | Walmart green roof boundaries | 2019-07-06 | 2019-07-06 | Natasha Stamler | Natasha Stamler | Built off of walmart2_good |
