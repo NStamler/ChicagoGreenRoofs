@@ -14,13 +14,15 @@ AirCasting | Personal monitoring | PM, Sound level, Relative humidity, Temperatu
 
 ### GIS Data
 
-Name | Type | Measured parameter | Spatial resolution | Extent | Date Published | Date Last Modified |Source | Comments
+Name | Type | Measured parameter | Spatial resolution | Extent | Date Published | Date Last Modified | Source | Comments
 --- | --- | --- | --- | --- | --- | --- | --- | ---
-USGS 13 arc-second n42w088 1 x 1 degree | USGS Elevation Products (3DEP) - Raster | Elevation | 1/3 arc-second | 1 x 1 degree | 2017-08-24 | 2020-03-03 | [USGS](https://viewer.nationalmap.gov/basic/#productSearch) | May only be half of Chicago?
+USGS 13 arc-second n42w088 1 x 1 degree | USGS Elevation Products (3DEP) - Raster | Elevation | 1/3 arc-second | 1 x 1 degree | 2017-08-24 | 2020-03-03 | [USGS](https://viewer.nationalmap.gov/basic/#productSearch) | Doesn't quite cover the northern tip of Chicago
 LC08_CU_021007_20190610_20190621_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-06-10 |  | [USGS](https://earthexplorer.usgs.gov/) | Northern half of Chicago
 LC08_CU_021008_20190610_20190621_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-06-10 |  | [USGS](https://earthexplorer.usgs.gov/) | Southern half of Chicago
 LC08_CU_021007_20190712_20190723_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-07-12 |  | [USGS](https://earthexplorer.usgs.gov/) | Northern half of Chicago
 LC08_CU_021008_20190712_20190723_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-07-12 |  | [USGS](https://earthexplorer.usgs.gov/) | Southern half of Chicago
+Building Footprints (current) | Chicago building footprints | Shapefile | N/A | N/A | 2015-08-14 | 2018-07-11 | [City of Chicago](https://data.cityofchicago.org/Buildings/Building-Footprints-current-/hz9b-7nh8) | Large file, so a bit slow to process in ArcGIS
+Parks - Chicago Park District Park Boundaries (current) | Chicago Park District properties | Shapefile | N/A | N/A | 2015-03-19 | 2019-08-05 | [City of Chicago](https://data.cityofchicago.org/Parks-Recreation/Parks-Chicago-Park-District-Park-Boundaries-curren/ej32-qgdr) |
 
 
 ### Geometry
