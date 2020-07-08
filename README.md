@@ -22,7 +22,8 @@ LC08_CU_021008_20190610_20190621_C01_V01_ST | Provisional Surface Temperature | 
 LC08_CU_021007_20190712_20190723_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-07-12 |  | [USGS](https://earthexplorer.usgs.gov/) | Northern half of Chicago
 LC08_CU_021008_20190712_20190723_C01_V01_ST | Provisional Surface Temperature | Land Surface Temperature (LST) - Raster | 30m |  | 2019-07-12 |  | [USGS](https://earthexplorer.usgs.gov/) | Southern half of Chicago
 Building Footprints (current) | Chicago building footprints | Shapefile | N/A | N/A | 2015-08-14 | 2018-07-11 | [City of Chicago](https://data.cityofchicago.org/Buildings/Building-Footprints-current-/hz9b-7nh8) | Large file, so a bit slow to process in ArcGIS
-Parks - Chicago Park District Park Boundaries (current) | Chicago Park District properties | Shapefile | N/A | N/A | 2015-03-19 | 2019-08-05 | [City of Chicago](https://data.cityofchicago.org/Parks-Recreation/Parks-Chicago-Park-District-Park-Boundaries-curren/ej32-qgdr) |
+Parks - Chicago Park District Park Boundaries (current) | Chicago Park Districts | Shapefile | N/A | N/A | 2015-03-19 | 2019-08-05 | [City of Chicago](https://data.cityofchicago.org/Parks-Recreation/Parks-Chicago-Park-District-Park-Boundaries-curren/ej32-qgdr) |
+Boundaries - Community Areas (current)  | Chicago Community Areas | Shapefile | N/A | N/A | 2013-01-06 | 2018-12-18 | [City of Chicago](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6) |
 
 
 ### Geometry
